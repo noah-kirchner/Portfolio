@@ -1,0 +1,162 @@
+/***** NAVBAR *****/
+
+.navbar {
+    background-color: #000; /* black navbar */
+    border-radius: 0;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Book', sans-serif;
+    font-size: 18px;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ebd122;
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Book', sans-serif;
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+    background-color: #000;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #fff;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #ebd122;
+    color: #242424;
+    fill: #242424;
+    border-color: #fff;
+}
+
+/*** JUMBOTRON ***/
+
+.jumbotron {
+    background-image: url("../assets/contour-lines.png");
+    text-align: center;
+    color: #000; /* black text */
+    padding: 3%;
+    border-radius: 0px;
+    font-family: 'Franklin Gothic Book', sans-serif;
+}
+
+.jumbotron h2 {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Book', sans-serif;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+/*** SECTION TITLES ***/
+
+.section-title {
+    font-family: 'Franklin Gothic Book', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: #242424;
+    text-align: center;
+}
+
+/*** CARD ***/
+
+.card {
+    background-color: #fff;
+    border-color: #cccccc;
+    border-width: 1px;
+    width: 100%;
+    font-family: 'Franklin Gothic Book', sans-serif;
+}
+
+.card:hover {
+    border-color: #ebd122;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/*** Basic Text Styles ***/
+
+#about-world {
+    max-width: 100%;
+}
+
+.resume h3 {
+    font-weight: bold;
+}
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: #863ee3;
+    font-family: 'Franklin Gothic Book', sans-serif;
+}
+
+a:hover {
+    color: #ebd122;
+}
+
+.container {
+    padding: 25px 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Book', sans-serif;
+    background-color: #f7f1fa;
+    color: #242424;
+}
+
+/*** PORTFOLIO BUTTONS ***/
+
+.btn-primary {
+    background-color: #4a4a4a; /* dark gray */
+    border-color: #4a4a4a;
+    color: #fff; /* white text */
+    font-family: 'Franklin Gothic Book', sans-serif;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #333333; /* slightly darker on hover */
+    border-color: #333333;
+    color: #fff;
+    text-decoration: none;
+}
